@@ -1,0 +1,22 @@
+/* Collection 1 */
+:root {
+    /* Mode 1 */
+    /* color */
+    --bc: #ff9756;
+    --bf: #a14308;
+    --bg: #121212;
+    --bl: #00a7c1;
+    --p: #d146ff;
+    --y: #f7dd7f;
+    /* number */
+    --b4: 0.625rem;
+    --b2-b3: 0.9375rem;
+    --b1: 1.25rem;
+    --h3: 1.875rem;
+    --h2: 2.1875rem;
+    --h1: 2.5rem;
+    /* string */
+    --body: Oswald;
+    --header1: Oleo Script;
+    --header2: Bebas Neue;
+  }
