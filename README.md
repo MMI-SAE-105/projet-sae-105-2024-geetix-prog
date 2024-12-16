@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : GUELLATI
+- PRÉNOM : Mathis
+- GROUPE : B1
+- URL du site : https://dynamic-kheer-b6700d.netlify.app
+- URL FIGMA : https://www.figma.com/design/PoNoBSVlYJGHRam694MUIJ/Maquettes-projet-individuel-%E2%80%94-Mathis-GUELLATI?node-id=3746-423&t=nc5oPsBOj4nt7231-1
