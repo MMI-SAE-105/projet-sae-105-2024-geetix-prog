@@ -1,0 +1,9 @@
+body{
+    background-color: var(--bg);
+}
+
+h1{
+    font-family: var(--header1);
+    font-size: var(--h1);
+    color: var(--y);
+}

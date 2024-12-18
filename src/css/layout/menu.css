@@ -1,0 +1,115 @@
+.menu {
+  visibility: hidden;
+  display: flex;
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  background-color: var(--bg);
+  color: var(--bg);
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+  transform: translateX(100vw);
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-btn {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+}
+
+.menu__link {
+  text-decoration: none;
+  font-size: var(--h2);
+  display: block;
+  color: var(--b);
+  font-family: var(--header2);
+  width: 70%;
+}
+
+.menu__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu__item{
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.menu-btn__bar,
+.menu-btn__bar::before{
+  content: "";
+  background: var(--p);
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  border-radius: 2px;
+  left: 0;
+  z-index: 10;
+  transition: all 0.4s ease-in-out;
+}
+
+.menu-btn__bar::before {
+    top: -10px;
+}
+  
+.menu-btn__bar::after {
+    top: 10px;
+    content: "";
+    background: var(--p);
+    height: 3px;
+    width: 20px;
+    position: absolute;
+    border-radius: 2px;
+    right: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+}
+
+.menu[aria-hidden="false"] {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+  transform: rotate(135deg);
+  background: var(--y);
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+  opacity: 0%;
+}
+
+.menu[aria-expanded="false"] {
+  visibility: visible;
+}
+
+.menu-btn{
+  margin-top: 85px;
+  margin-right: 45px;
+}
+
+.link__title{
+  text-decoration: none;
+  font-family: var(--header1);
+  color: var(--y);
+}
