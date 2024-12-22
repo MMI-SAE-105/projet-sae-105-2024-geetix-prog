@@ -7,3 +7,28 @@ h1{
     font-size: var(--h1);
     color: var(--y);
 }
+
+h2,h3,p{
+    color: var(--b);
+}
+
+h2{
+    font-family: var(--header2);
+    font-size: var(--h2);
+}
+
+.b1{
+    font-family: var(--body);
+    font-size: var(--b1);
+}
+
+.b2_3{
+    font-family: var(--body);
+    font-size: var(--b2-b3);
+    font-weight: 200;
+}
+
+.paragraph{
+     margin-left: 40px;
+     margin-right: 20px;
+}
