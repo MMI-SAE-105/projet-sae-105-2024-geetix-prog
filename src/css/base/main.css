@@ -32,3 +32,17 @@ h2{
      margin-left: 40px;
      margin-right: 20px;
 }
+
+.top{
+    position: fixed;
+    top: 80%;
+    background-color: var(--y);
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}

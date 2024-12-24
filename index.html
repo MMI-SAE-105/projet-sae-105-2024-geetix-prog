@@ -6,17 +6,18 @@
     <title>VinyStory</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/carroussel.js"></script>
 </head>
 <body>
     <header class="header accueuil">
         <div class="header__left">
-            <img class="header__drapeau" src="assets/img/icons/drapeau_france.svg" alt="langue française">
+            <img class="header__drapeau" src="assets/icons/drapeau_france.svg" alt="langue française">
             <h1 class="header__title">VinyStory</h1>
-            <img class="header__elispe" src="assets/img/formes/elipse_violette.svg" alt="">
+            <img class="header__elispe" src="assets/formes/elipse_violette.svg" alt="">
             <h1 class="header__tranparent">Vin</h1>
         </div>
         <div class="header__right">
-            <img class="header__el" src="assets/img/formes/elipse_creuse_jaune.svg" alt="">
+            <img class="header__el" src="assets/formes/elipse_creuse_jaune.svg" alt="">
             <button class="menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
                 <span class="menu-btn__bar" aria-hidden="true"></span>
             </button>
@@ -36,10 +37,12 @@
             </nav>
         </div>
     </header>
-
+    <div class="top">
+        <img class="top__img" src="assets/icons/fleche_top.svg" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" alt="">
+    </div>
     <div class="intro">
         <h2 class="part__title">Les vinyles</h2>
-        <img class="main" src="assets/img/formes/main.svg" alt="">
+        <img class="main" src="assets/formes/main.svg" alt="">
         <div class="part__text">
             <p class="b2_3 part__para">
                 Les vinyles sont bien plus que des supports d'écoute. Leur <span class="text__bold">son chaleureux</span> et <span class="text__bold">authentique</span> séduit les amateurs de musique depuis des générations. Nés à la fin du XIXe siècle, ils ont connu leur âge d'or entre les années 1950 et 1980 avant d’être remplacés par les formats numériques.
@@ -50,23 +53,100 @@
         </div>
         <div class="plus">
             <p class="b2_3 link__section">En savoir plus</p>
-            <img class="plus__fleche" src="assets/img/icons/fleche_droite.svg" alt="">
+            <img class="plus__fleche" src="assets/icons/fleche_droite.svg" alt="">
         </div>
     </div>
     <div class="savoir">
-        <h2 class="part__title">Pour en savoir plus</h2>
-        <div class="part__text">
-            <p class="b2_3 part__para">
-                Les vinyles sont bien plus que des supports d'écoute. Leur <span class="text__bold">son chaleureux</span> et <span class="text__bold">authentique</span> séduit les amateurs de musique depuis des générations. Nés à la fin du XIXe siècle, ils ont connu leur âge d'or entre les années 1950 et 1980 avant d’être remplacés par les formats numériques.
-            </p>
-            <p class="b2_3 part__para">
-                Aujourd'hui, les vinyles font <span class="text__bold">un retour en force</span>, devenant des <span class="text__bold">objets de collection et de passion</span>. Chaque disque raconte <span class="text__bold">une histoire</span> à travers la musique, les <span class="text__bold">pochettes artistiques</span>, et les éditions limitées. Le vinyle offre <span class="text__bold">une expérience sensorielle unique</span>, où chaque écoute devient un rituel, <span class="text__bold">reconnectant l’auditeur à l'essence même de la musique</span>.
-            </p>
+        <h2 class="part__title">Pour en savoir plus</h2>  
+    </div>
+    <div class="carroussel">
+        <div class="card first carroussel__item">
+            <img class="card__pic" src="assets/img/vinyle.svg" alt="Platine vinyle">
+            <div class="card__items">
+                <h3 class="card__title">Le fonctionnement exeptionnel des vinyles</h3>
+                <p class="b2_3 card__para">
+                    Découvrez le vinyle : un disque où le son est gravé en spirale. Sur la platine, une aiguille parcourt les sillons, vibrant pour reproduire la musique !
+                </p>
+            </div>
+            <div class="card__link">
+                <p class="b2_3 link__text">
+                    En savoir plus
+                </p>
+                <img class="link__fleche" src="assets/icons/fleche_alonge.svg" alt="">
+            </div>
         </div>
-        <div class="plus">
-            <p class="b2_3 link__section">En savoir plus</p>
-            <img class="plus__fleche" src="assets/img/icons/fleche_droite.svg" alt="">
+        <div class="card carroussel__item">
+            <img class="card__pic" src="assets/img/high_fidelity.svg" alt="High fidelity">
+            <div class="card__items">
+                <h3 class="card__title">High Fidelity, le film pour les fans de vinyles</h3>
+                <p class="b2_3 card__para">
+                    Plongez dans High Fidelity, une comédie culte sur la musique, l'amour et les vinyles, portée par la passion des playlists et des collections !
+                </p>
+            </div>
+            <div class="card__link">
+                <p class="b2_3 link__text">
+                    En savoir plus
+                </p>
+                <img class="link__fleche" src="assets/icons/fleche_alonge.svg" alt="">
+            </div>
         </div>
+        <div class="card carroussel__item">
+            <img class="card__pic" src="assets/img/Chazelle.svg" alt="Damien Chazelle">
+            <div class="card__items">
+                <h3 class="card__title">Damien Chazelle, le rélisateur à suivre</h3>
+                <p class="b2_3 card__para">             
+                    Découvrez Damien Chazelle, le réalisateur visionnaire derrière La La Land et Whiplash. Plongez dans son univers cinématographique captivant !
+                </p>
+            </div>
+            <div class="card__link">
+                <p class="b2_3 link__text">
+                    En savoir plus
+                </p>
+                <img class="link__fleche" src="assets/icons/fleche_alonge.svg" alt="">
+            </div>
+        </div>
+        <div class="card carroussel__item">
+            <img class="card__pic" src="assets/img/rock.svg" alt="Livre Rock vinyls">
+            <div class="card__items">
+                <h3 class="card__title">Rock Vinyles, le livre à avoir</h3>
+                <p class="b2_3 card__para">
+                    Découvrez Rock Vinyles, un hommage vibrant aux albums et pochettes qui ont façonné l'histoire du rock !
+                </p>
+                <br>
+            </div>
+            <div class="card__link">
+                <p class="b2_3 link__text">
+                    En savoir plus
+                </p>
+                <img class="link__fleche" src="assets/icons/fleche_alonge.svg" alt="">
+            </div>
+        </div>
+        <div class="card last carroussel__item">
+            <img class="card__pic" src="assets/img/TDSM.svg" alt="Album The Dark Side of the Moon">
+            <div class="card__items">
+                <h3 class="card__title">L’album le plus célèbre de tout les temps</h3>
+                <p class="b2_3 card__para">
+                    Découvrez The Dark Side of the Moon de Pink Floyd, un chef-d'œuvre intemporel aux sonorités légendaires. Plongez dans l'univers envoûtant de cet album culte !
+                </p>
+            </div>
+            <div class="card__link">
+                <p class="b2_3 link__text">
+                    En savoir plus
+                </p>
+                <img class="link__fleche" src="assets/icons/fleche_alonge.svg" alt="">
+            </div>
+        </div>
+        <div class="carroussel__controls">
+            <button class="carroussel__button carroussel__button--prev" aria-label="Défiler vers la gauche">
+                <img class="btn__gauche" src="assets/icons/fleche_droite.svg" alt="fleche gauche" />
+            </button>
+            <button class="carroussel__button carroussel__button--next" aria-label="Défiler vers la droite">
+                <img class="btn__droite" src="assets/icons/fleche_droite.svg" alt="fleche droite" />
+            </button>
+        </div>
+    </div>
+    <div class="footer">
+        
     </div>
 </body>
 </html>
