@@ -3,7 +3,7 @@
   display: flex;
   position: fixed;
   inset: 0;
-  z-index: 2;
+  z-index: 3;
   background-color: var(--bg);
   color: var(--bg);
   flex-direction: column;
@@ -47,10 +47,25 @@
   margin-bottom: 20px;
 }
 
+.menu__articles,
+.menu__articles::before,
+.menu__articles::after{
+  background: var(--y);
+}
+
+.menu__home,
+.menu__home::before,
+.menu__home::after{
+  background: var(--p);
+}
+
+.menu-btn__bar{
+  transform: scale(0.75);
+}
+
 .menu-btn__bar,
 .menu-btn__bar::before{
   content: "";
-  background: var(--p);
   height: 3px;
   width: 100%;
   position: absolute;
@@ -65,16 +80,15 @@
 }
   
 .menu-btn__bar::after {
-    top: 10px;
-    content: "";
-    background: var(--p);
-    height: 3px;
-    width: 20px;
-    position: absolute;
-    border-radius: 2px;
-    right: 0;
-    z-index: 10;
-    transition: all 0.4s ease-in-out;
+  top: 10px;
+  content: "";
+  height: 3px;
+  width: 20px;
+  position: absolute;
+  border-radius: 2px;
+  right: 0;
+  z-index: 10;
+  transition: all 0.4s ease-in-out;
 }
 
 .menu[aria-hidden="false"] {

@@ -8,8 +8,7 @@
 .header__tranparent {
     margin-top: 75px;
     margin-left: 25px;
-    color: transparent;
-    -webkit-text-stroke: 1px var(--y);
+
     z-index: 2;
     position: absolute;
     top: 0;
@@ -39,4 +38,16 @@
 .header__el{
     position: absolute;
     right: 0;
+}
+
+.title__link{
+    text-decoration: none;
+    color: var(--y);
+}
+
+.subtitle__link{
+    text-decoration: none;
+    color: var(--y);
+    color: transparent;
+    -webkit-text-stroke: 1px var(--y);
 }
