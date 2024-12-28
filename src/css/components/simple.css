@@ -37,6 +37,7 @@
 
 .link__section{
     color: var(--y);
+    text-decoration: none;
 }
 
 .plus__fleche{

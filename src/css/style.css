@@ -11,6 +11,7 @@
 
 /* Base */
 @import "base/main.css";
+@import "base/medias.css";
 
 /* Layout */
 @import "layout/header.css";
@@ -23,3 +24,4 @@
 @import "components/savoirplus.css";
 @import "components/carroussel.css";
 @import "components/accordeon.css";
+@import "components/articles.css";

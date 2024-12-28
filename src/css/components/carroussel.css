@@ -31,7 +31,7 @@
     left: 0;
     right: 0;
     z-index: 3;
-    margin-top: 450px;
+    margin-top: 500px;
 }
 
 .carroussel__button {
@@ -76,6 +76,7 @@
 
 .link__text{
     color: var(--bc);
+    text-decoration: none;
 }
 
 .card__pic{
