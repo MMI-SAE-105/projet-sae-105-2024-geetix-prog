@@ -60,4 +60,6 @@
 .content__text{
     margin-left: 25px;
     width: 55%;
+    font-weight: 100;
+    line-height: 1.6;
 }
