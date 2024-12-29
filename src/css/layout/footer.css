@@ -72,3 +72,7 @@
     color: var(--y);
     text-decoration: none;
 }
+
+.text__item{
+    color: var(--y);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VinyStory</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/accordeon.js"></script>
+</head>
+<body>
+    <header class="header accueuil">
+        <div class="header__left">
+            <img class="header__drapeau" src="assets/icons/drapeau_france.svg" alt="langue française">
+            <h1 class="header__title"><a class="title__link" href="index.html">VinyStory</a></h1>
+            <img class="header__elispe" src="assets/formes/ellipse_marron.svg" alt="">
+            <h1 class="header__tranparent"><a class="subtitle__link" href="index.html">Vin</a></h1>
+        </div>
+        <div class="header__right">
+            <img class="header__el" src="assets/formes/elipse_creuse_marron.svg" alt="">
+            <button class="menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar menu__articles" aria-hidden="true"></span>
+            </button>
+            <nav class="menu" id="mainNav" aria-hidden="true">
+                <ul class="menu__list">
+                    <h1><a class="link__title" href="index.html">VinyStory</a></h1>
+                    <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+                    <div class="accordeon">
+                        <details>
+                            <summary class="menu__depliable">
+                                <li class="menu__item summary__item">En savoir plus</li>
+                            </summary>
+                        
+                            <div class="accordeon__element">
+                                <li class="menu__item"><a class="menu__link" href="fonctionnement.html">Leur fonctionnement</a></li>
+                                <li class="menu__item"><a class="menu__link" href="HighFidelity.html">High Fidelity</a></li>
+                                <li class="menu__item"><a class="menu__link" href="chazelle.html">Damien Chazelle</a></li>
+                                <li class="menu__item"><a class="menu__link" href="film.html">Rock vinyls</a></li>
+                                <li class="menu__item"><a class="menu__link" href="invites.html">The Dark Side Of The Moon</a></li>
+                            </div>
+                        </details>
+                    <li class="menu__item"><a class="menu__link" href="infospratique.html">autres projets</a></li>
+                    <li class="menu__item"><a class="menu__link" href="infospratique.html">contact</a></li>
+                    <li class="menu__item"><a class="menu__link" href="infospratique.html">à propos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="infospratique.html">glossaire</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="top">
+        <img class="top__img" src="assets/icons/fleche_top.svg" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" alt="">
+    </div>
+    <div class="article">
+        <div class="chapo">
+            <h2 class="article__title">LE FONCTIONNEMENT D'UN VINYLE ET D'UNE PLATINE</h2>
+            <p class="arcticle__legende b2_3">Les vinyles, malgré l'ère numérique, suscitent un regain d'intérêt. Comprendre leur fonctionnement et la production de leur son distinctif permet d'apprécier pourquoi ils restent si prisés.</p>
+            <div class="article__pic">
+                <img class="img__article" src="assets/img/vinyle_img.svg" alt="Disque 45 tours en cours de lecture">
+                <p class="img__text b4">Disque 45 tours en cours de lecture</p>
+            </div>
+        </div>
+    </div>
+</body>
