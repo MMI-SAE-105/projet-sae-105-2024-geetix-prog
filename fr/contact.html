@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VinyStory</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/logo_page.svg"/>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/carroussel.js"></script>
+</head>
+<body>
+    <header class="header accueuil">
+        <div class="header__left">
+            <img class="header__drapeau" src="../assets/icons/drapeau_france.svg" alt="langue française">
+            <h1 class="header__title"><a class="title__link" href="../index.html">VinyStory</a></h1>
+            <img class="header__elispe" src="../assets/formes/ellipse_marron_fonce.svg" alt="">
+            <h1 class="header__tranparent"><a class="subtitle__link" href="../index.html">Vin</a></h1>
+        </div>
+        <div class="header__right">
+            <img class="header__el" src="../assets/formes/elipse_creuse_violette.svg" alt="">
+            <button class="menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar menu__autre" aria-hidden="true"></span>
+            </button>
+            <nav class="menu" id="mainNav" aria-hidden="true">
+                <ul class="menu__list">
+                    <h1><a class="link__title" href="../index.html">VinyStory</a></h1>
+                    <li class="menu__item"><a class="menu__link" href="../index.html">Accueil</a></li>
+                    <div class="accordeon">
+                        <details>
+                            <summary class="menu__depliable">
+                                <li class="menu__item summary__item">En savoir plus</li>
+                            </summary>
+                        
+                            <div class="accordeon__element">
+                                <li class="menu__item"><a class="menu__link" href="fonctionnement.html">Leur fonctionnement</a></li>
+                                <li class="menu__item"><a class="menu__link" href="HighFidelity.html">High Fidelity</a></li>
+                                <li class="menu__item"><a class="menu__link" href="chazelle.html">Damien Chazelle</a></li>
+                                <li class="menu__item"><a class="menu__link" href="rock_vinyle.html">Rock vinyls</a></li>
+                                <li class="menu__item"><a class="menu__link" href="tdsotm.html">The Dark Side Of The Moon</a></li>
+                            </div>
+                        </details>
+                    <li class="menu__item"><a class="menu__link" href="autres_projet.html">autres projets</a></li>
+                    <li class="menu__item"><a class="menu__link" href="infospratique.html">contact</a></li>
+                    <li class="menu__item"><a class="menu__link" href="infospratique.html">à propos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="infospratique.html">glossaire</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="top">
+        <img class="top__img" src="../assets/icons/fleche_top.svg" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" alt="">
+    </div>
+    <div class="article">
+        <div class="chapo">
+            <h2 class="article__title article__projet">contact</h2>
+            <div class="formulaire">
+                <form class="form">
+                    <div class="ele">
+                        <label for="nom" class="form__label b1">NOM</label>
+                        <input placeholder="Entrez votre nom..." type="text" id="nom" class="form__input b2_3" required>
+                    </div>
+                    <div class="ele">
+                        <label for="prenom" class="form__label b1">Prénom</label>
+                        <input placeholder="Entrez votre prénom..." type="text" id="prenom" class="form__input b2_3" required>
+                    </div>
+                    <div class="ele">
+                        <label for="email" class="form__label b1">Email</label>
+                        <input placeholder="Entrez votre adresse mail..." type="email" id="email" class="form__input b2_3" required>
+                    </div>
+                    <div class="ele">
+                        <label for="message" class="form__label b1">Message</label>
+                        <textarea id="message" class="form__input b2_3" required></textarea>
+                    </div>
+                    <div class="btn">
+                        <button class="form__btn b1">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" alt="">
+            <h1 class="footer__title">VinyStory</h1>
+            <img class="logo" src="../assets/icons/logo.svg" alt="">
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__reseaux">
+            <img class="instagram" src="../assets/icons/instagram.svg" alt="instagram">
+            <img class="x" src="../assets/icons/x.svg" alt="x">
+            <img class="facebook" src="../assets/icons/facebook.svg" alt="facebook">
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__menu">
+            <p class="footer__item b1"><a class="footer__link" href="../index.html">Accueil</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="fonctionnement.html">Les vinyles</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="HighFidelity.html">High fidelity</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="chazelle.html">Damien Chazelle</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="rock_vinyle.html">Rock Vinyles</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="tdsotm.html">The Dark Side of the Moon</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="autres_projet.html">Autres projets</a></p>
+            <p class="footer__item b1">À propos</p>
+            <p class="footer__item b1">Contact</p>
+            <p class="footer__item b1">Glossaire</p>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__text">
+            <p class="text__item b1">Ce site web est fait dans le cadre d’un projet pédagogique du BUT MMI de Montbéliard</p>
+            <p class="text__item b1">Pour en savoir plus <a class="item__link" href="https://blogdummi.fr/">cliquez ici</a></p>
+            <p class="text__item b1">Mathis Guellati</p>
+        </div>
+    </div>
+</body>
