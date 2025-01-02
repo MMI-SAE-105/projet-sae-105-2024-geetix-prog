@@ -1,0 +1,42 @@
+.article__projet{
+    font-size: var(--h1);
+    font-weight: 600;
+}
+
+.projet__legende{
+    font-size: var(--b1);
+}
+
+.projet{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.projet__img{
+    transform: scale(2);
+}
+
+.projet__description{
+    margin: 30px 50px;
+}
+
+.redirection__plus{
+    display: flex;
+    gap: 10px;
+}
+
+.plus__link{
+    color: var(--p);
+    text-decoration: none;
+}
+
+.link__fleche{
+    color: var(--p);
+}
+
+.projet__redirection{
+    display: flex;
+    justify-content: center;
+    position: space-between;
+    gap: 100px;
+}
