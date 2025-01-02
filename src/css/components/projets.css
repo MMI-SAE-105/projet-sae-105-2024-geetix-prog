@@ -10,9 +10,10 @@
 .projet{
     margin-top: 100px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
-.projet__img{
+.img__petite{
     transform: scale(2);
 }
 
