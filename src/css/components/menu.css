@@ -59,6 +59,12 @@
   background: var(--p);
 }
 
+.menu__autre,
+.menu__autre::before,
+.menu__autre::after{
+  background: var(--y);
+}
+
 .menu-btn__bar{
   transform: scale(0.75);
 }
