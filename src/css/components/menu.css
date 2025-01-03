@@ -65,6 +65,12 @@
   background: var(--y);
 }
 
+.menu__propos,
+.menu__propos::before,
+.menu__propos::after{
+  background: var(--bf);
+}
+
 .menu-btn__bar{
   transform: scale(0.75);
 }
