@@ -1,26 +1,26 @@
 /* Collection 1 */
 :root {
-    /* Mode 1 */
-    /* color */
-    --b: #ffffff;
-    --bc: #ff9756;
-    --bf: #a14308;
-    --bg: #121212;
-    --bl: #00a7c1;
-    --p: #d146ff;
-    --y: #f7dd7f;
-    /* number */
-    --b4: 0.825rem;
-    --b2-b3: 1rem;
-    --b1: 1.3rem;
-    --bt: 1.6rem;
-    --h3: 1.875rem;
-    --h2: 2.1875rem;
-    --h1: 2.5rem;
-    /* Weight */
-    --b1-m: 500;
-    /* string */
-    --body: Oswald;
-    --header1: Oleo Script;
-    --header2: Bebas Neue;
-  }
+  /* Mode 1 */
+  /* color */
+  --b: #ffffff;
+  --bc: #ff9756;
+  --bf: #a14308;
+  --bg: #121212;
+  --bl: #00a7c1;
+  --p: #d146ff;
+  --y: #f7dd7f;
+  /* number */
+  --b4: 0.825rem;
+  --b2-b3: 1.2rem;
+  --b1: 1.5rem;
+  --bt: 1.6rem;
+  --h3: 1.875rem;
+  --h2: 2.1875rem;
+  --h1: 2.5rem;
+  /* Weight */
+  --b1-m: 500;
+  /* string */
+  --body: Oswald;
+  --header1: Oleo Script;
+  --header2: Bebas Neue;
+}
