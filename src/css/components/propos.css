@@ -1,8 +1,14 @@
-.propos__part{
-    margin-top: -30px;
-}
-
 .propos__text{
     margin-bottom: -30px;
     line-height: 1.6;
+}
+
+.blue__text{
+    color: var(--bl);
+}
+
+.plus__propos{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px;
 }
