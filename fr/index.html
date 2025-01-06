@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VinyStory</title>
-    <link rel="icon" type="image/svg+xml" href="assets/icons/logo_page.svg"/>
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/logo_page.svg"/>
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/accordeon.js"></script>
     <script type="module" src="/src/js/carroussel.js"></script>
 </head>
 <body>
     <header class="header accueuil">
         <div class="header__left">
-            <img class="header__drapeau" src="assets/icons/drapeau_france.svg" alt="langue française">
+            <img class="header__drapeau" src="../assets/icons/drapeau_france.svg" alt="langue française">
             <h1 class="header__title"><a class="title__link" href="index.html">VinyStory</a></h1>
-            <img class="header__elispe" src="assets/formes/elipse_violette.svg" alt="">
+            <img class="header__elispe" src="../assets/formes/elipse_violette.svg" alt="">
             <h1 class="header__tranparent"><a class="subtitle__link" href="index.html">Vin</a></h1>
         </div>
         <div class="header__right">
-            <img class="header__el" src="assets/formes/elipse_creuse_jaune.svg" alt="">
+            <img class="header__el" src="../assets/formes/elipse_creuse_jaune.svg" alt="">
             <button class="menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
                 <span class="menu-btn__bar menu__home" aria-hidden="true"></span>
             </button>
@@ -33,27 +34,27 @@
                             </summary>
                         
                             <div class="accordeon__element">
-                                <li class="menu__item"><a class="menu__link" href="fr/fonctionnement.html">Leur fonctionnement</a></li>
-                                <li class="menu__item"><a class="menu__link" href="fr/HighFidelity.html">High Fidelity</a></li>
-                                <li class="menu__item"><a class="menu__link" href="fr/chazelle.html">Damien Chazelle</a></li>
-                                <li class="menu__item"><a class="menu__link" href="fr/rock_vinyle.html">Rock vinyls</a></li>
-                                <li class="menu__item"><a class="menu__link" href="fr/tdsotm.html">The Dark Side Of The Moon</a></li>
+                                <li class="menu__item"><a class="menu__link" href="fonctionnement.html">Leur fonctionnement</a></li>
+                                <li class="menu__item"><a class="menu__link" href="HighFidelity.html">High Fidelity</a></li>
+                                <li class="menu__item"><a class="menu__link" href="chazelle.html">Damien Chazelle</a></li>
+                                <li class="menu__item"><a class="menu__link" href="rock_vinyle.html">Rock vinyls</a></li>
+                                <li class="menu__item"><a class="menu__link" href="tdsotm.html">The Dark Side Of The Moon</a></li>
                             </div>
                         </details>
-                    <li class="menu__item"><a class="menu__link" href="fr/autres_projet.html">autres projets</a></li>
-                    <li class="menu__item"><a class="menu__link" href="fr/contact.html">contact</a></li>
-                    <li class="menu__item"><a class="menu__link" href="fr/a_propos.html">à propos</a></li>
-                    <li class="menu__item"><a class="menu__link" href="infospratique.html">glossaire</a></li>
+                    <li class="menu__item"><a class="menu__link" href="autres_projet.html">autres projets</a></li>
+                    <li class="menu__item"><a class="menu__link" href="contact.html">contact</a></li>
+                    <li class="menu__item"><a class="menu__link" href="a_propos.html">à propos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="glossaire.html">glossaire</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <div class="top">
-        <img class="top__img" src="assets/icons/fleche_top.svg" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" alt="">
+        <img class="top__img" src="../assets/icons/fleche_top.svg" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" alt="">
     </div>
     <div class="intro">
         <h2 class="part__title">Les vinyles</h2>
-        <img class="main" src="assets/formes/main.svg" alt="">
+        <img class="main" src="../assets/formes/main.svg" alt="">
         <div class="part__text">
             <p class="b2_3 part__para">
                 Les vinyles sont bien plus que des supports d'écoute. Leur <span class="text__bold">son chaleureux</span> et <span class="text__bold">authentique</span> séduit les amateurs de musique depuis des générations. Nés à la fin du XIXe siècle, ils ont connu leur âge d'or entre les années 1950 et 1980 avant d’être remplacés par les formats numériques.
@@ -63,8 +64,8 @@
             </p>
         </div>
         <div class="plus">
-            <p class="b2_3 link__section"><a class="link__section" href="fr/fonctionnement.html">En savoir plus</a></p>
-            <img class="plus__fleche" src="assets/icons/fleche_droite.svg" alt="">
+            <p class="b2_3 link__section"><a class="link__section" href="fonctionnement.html">En savoir plus</a></p>
+            <img class="plus__fleche" src="../assets/icons/fleche_droite.svg" alt="">
         </div>
     </div>
     <div class="savoir">
@@ -72,7 +73,7 @@
     </div>
     <div class="carroussel">
         <div class="card first carroussel__item">
-            <img class="card__pic" src="assets/img/vinyle.svg" alt="Platine vinyle">
+            <img class="card__pic" src="../assets/img/vinyle.svg" alt="Platine vinyle">
             <div class="card__items">
                 <h3 class="card__title">Le fonctionnement exeptionnel des vinyles</h3>
                 <p class="b2_3 card__para">
@@ -81,13 +82,13 @@
             </div>
             <div class="card__link">
                 <p class="b2_3 link__text">
-                    <a class="link__text" href="fr/fonctionnement.html">En savoir plus</a>
+                    <a class="link__text" href="fonctionnement.html">En savoir plus</a>
                 </p>
-                <img class="link__fleche" src="assets/icons/fleche_alonge.svg" alt="">
+                <img class="link__fleche" src="../assets/icons/fleche_alonge.svg" alt="">
             </div>
         </div>
         <div class="card carroussel__item">
-            <img class="card__pic" src="assets/img/high_fidelity.svg" alt="High fidelity">
+            <img class="card__pic" src="../assets/img/high_fidelity.svg" alt="High fidelity">
             <div class="card__items">
                 <h3 class="card__title">High Fidelity, le film pour les fans de vinyles</h3>
                 <p class="b2_3 card__para">
@@ -96,13 +97,13 @@
             </div>
             <div class="card__link">
                 <p class="b2_3 link__text">
-                    <a class="link__text" href="fr/HighFidelity.html">En savoir plus</a>
+                    <a class="link__text" href="HighFidelity.html">En savoir plus</a>
                 </p>
-                <img class="link__fleche" src="assets/icons/fleche_alonge.svg" alt="">
+                <img class="link__fleche" src="../assets/icons/fleche_alonge.svg" alt="">
             </div>
         </div>
         <div class="card carroussel__item">
-            <img class="card__pic" src="assets/img/Chazelle.svg" alt="Damien Chazelle">
+            <img class="card__pic" src="../assets/img/Chazelle.svg" alt="Damien Chazelle">
             <div class="card__items">
                 <h3 class="card__title">Damien Chazelle, le rélisateur à suivre</h3>
                 <p class="b2_3 card__para">             
@@ -111,13 +112,13 @@
             </div>
             <div class="card__link">
                 <p class="b2_3 link__text">
-                    <a class="link__text" href="fr/chazelle.html">En savoir plus</a>
+                    <a class="link__text" href="chazelle.html">En savoir plus</a>
                 </p>
-                <img class="link__fleche" src="assets/icons/fleche_alonge.svg" alt="">
+                <img class="link__fleche" src="../assets/icons/fleche_alonge.svg" alt="">
             </div>
         </div>
         <div class="card carroussel__item">
-            <img class="card__pic" src="assets/img/rock.svg" alt="Livre Rock vinyls">
+            <img class="card__pic" src="../assets/img/rock.svg" alt="Livre Rock vinyls">
             <div class="card__items">
                 <h3 class="card__title">Rock Vinyles, le livre à avoir</h3>
                 <p class="b2_3 card__para">
@@ -127,13 +128,13 @@
             <br>
             <div class="card__link">
                 <p class="b2_3 link__text">
-                    <a class="link__text" href="fr/rock_vinyle.html">En savoir plus</a>
+                    <a class="link__text" href="rock_vinyle.html">En savoir plus</a>
                 </p>
-                <img class="link__fleche" src="assets/icons/fleche_alonge.svg" alt="">
+                <img class="link__fleche" src="../assets/icons/fleche_alonge.svg" alt="">
             </div>
         </div>
         <div class="card last carroussel__item">
-            <img class="card__pic" src="assets/img/TDSM.svg" alt="Album The Dark Side of the Moon">
+            <img class="card__pic" src="../assets/img/TDSM.svg" alt="Album The Dark Side of the Moon">
             <div class="card__items">
                 <h3 class="card__title">L’album le plus célèbre de tout les temps</h3>
                 <p class="b2_3 card__para">
@@ -142,43 +143,43 @@
             </div>
             <div class="card__link">
                 <p class="b2_3 link__text">
-                    <a class="link__text" href="fr/tdsotm.html">En savoir plus</a>
+                    <a class="link__text" href="tdsotm.html">En savoir plus</a>
                 </p>
-                <img class="link__fleche" src="assets/icons/fleche_alonge.svg" alt="">
+                <img class="link__fleche" src="../assets/icons/fleche_alonge.svg" alt="">
             </div>
         </div>
         <div class="carroussel__controls">
             <button class="carroussel__button carroussel__button--prev" aria-label="Défiler vers la gauche">
-                <img class="btn__gauche" src="assets/icons/fleche_droite.svg" alt="fleche gauche" />
+                <img class="btn__gauche" src="../assets/icons/fleche_droite.svg" alt="fleche gauche" />
             </button>
             <button class="carroussel__button carroussel__button--next" aria-label="Défiler vers la droite">
-                <img class="btn__droite" src="assets/icons/fleche_droite.svg" alt="fleche droite" />
+                <img class="btn__droite" src="../assets/icons/fleche_droite.svg" alt="fleche droite" />
             </button>
         </div>
     </div>
     <div class="footer">
         <div class="footer__top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" alt="">
             <h1 class="footer__title">VinyStory</h1>
-            <img class="logo" src="assets/icons/logo.svg" alt="">
+            <img class="logo" src="../assets/icons/logo.svg" alt="">
         </div>
         <div class="footer__line"></div>
         <div class="footer__reseaux">
-            <img class="instagram" src="assets/icons/instagram.svg" alt="instagram">
-            <img class="x" src="assets/icons/x.svg" alt="x">
-            <img class="facebook" src="assets/icons/facebook.svg" alt="facebook">
+            <img class="instagram" src="../assets/icons/instagram.svg" alt="instagram">
+            <img class="x" src="../assets/icons/x.svg" alt="x">
+            <img class="facebook" src="../assets/icons/facebook.svg" alt="facebook">
         </div>
         <div class="footer__line"></div>
         <div class="footer__menu">
             <p class="footer__item b1"><a class="footer__link" href="index.html">Accueil</a></p>
-            <p class="footer__item b1"><a class="footer__link" href="fr/fonctionnement.html">Les vinyles</a></p>
-            <p class="footer__item b1"><a class="footer__link" href="fr/HighFidelity.html">High fidelity</a></p>
-            <p class="footer__item b1"><a class="footer__link" href="fr/chazelle.html">Damien Chazelle</a></p>
-            <p class="footer__item b1"><a class="footer__link" href="fr/rock_vinyle.html">Rock Vinyles</a></p>
-            <p class="footer__item b1"><a class="footer__link" href="fr/tdsotm.html">The Dark Side of the Moon</a></p>
-            <p class="footer__item b1"><a class="footer__link" href="fr/autres_projet.html">Autres projets</a></p>
-            <p class="footer__item b1"><a class="footer__link" href="fr/contact.html">À propos</a></p>
-            <p class="footer__item b1"><a class="footer__link" href="fr/contact.html">Contact</a></p>
-            <p class="footer__item b1">Glossaire</p>
+            <p class="footer__item b1"><a class="footer__link" href="fonctionnement.html">Les vinyles</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="HighFidelity.html">High fidelity</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="chazelle.html">Damien Chazelle</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="rock_vinyle.html">Rock Vinyles</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="tdsotm.html">The Dark Side of the Moon</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="autres_projet.html">Autres projets</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="a_propos.html">À propos</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="contact.html">Contact</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="glossaire.html">Glossaire</a></p>
         </div>
         <div class="footer__line"></div>
         <div class="footer__text">

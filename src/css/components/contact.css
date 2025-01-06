@@ -68,6 +68,6 @@
 }
 
 .form__btn:checked{
-    background-color: var(--bc);
+    background-color: var(--bl);
     color: var(--p);
 }
