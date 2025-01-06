@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VinyStory</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/logo_page.svg"/>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/accordeon.js"></script>
+</head>
+<body>
+    <header class="header accueuil">
+        <div class="header__left">
+            <a href="../fr/fonctionnement.html"><img class="header__drapeau" src="../assets/icons/drapeau_english.svg" alt="English language"></a>
+            <h1 class="header__title"><a class="title__link" href="index.html">VinyStory</a></h1>
+            <img class="header__elispe" src="../assets/formes/ellipse_marron.svg" alt="">
+            <h1 class="header__tranparent"><a class="subtitle__link" href="index.html">Vin</a></h1>
+        </div>
+        <div class="header__right">
+            <img class="header__el" src="../assets/formes/elipse_creuse_marron.svg" alt="">
+            <button class="menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar menu__articles" aria-hidden="true"></span>
+            </button>
+            <nav class="menu" id="mainNav" aria-hidden="true">
+                <ul class="menu__list">
+                    <h1><a class="link__title" href="index.html">VinyStory</a></h1>
+                    <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+                    <div class="accordeon">
+                        <details>
+                            <summary class="menu__depliable">
+                                <li class="menu__item summary__item">Learn more</li>
+                            </summary>
+                        
+                            <div class="accordeon__element">
+                                <li class="menu__item"><a class="menu__link" href="fonctionnement.html">How they work</a></li>
+                                <li class="menu__item"><a class="menu__link" href="HighFidelity.html">High Fidelity</a></li>
+                                <li class="menu__item"><a class="menu__link" href="chazelle.html">Damien Chazelle</a></li>
+                                <li class="menu__item"><a class="menu__link" href="rock_vinyle.html">Rock vinyls</a></li>
+                                <li class="menu__item"><a class="menu__link" href="tdsotm.html">The Dark Side Of The Moon</a></li>
+                            </div>
+                        </details>
+                    <li class="menu__item"><a class="menu__link" href="autres_projet.html">Other projects</a></li>
+                    <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+                    <li class="menu__item"><a class="menu__link" href="a_propos.html">About</a></li>
+                    <li class="menu__item"><a class="menu__link" href="infospratique.html">Glossary</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="top">
+        <img class="top__img" src="../assets/icons/fleche_top.svg" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" alt="">
+    </div>
+    <div class="article">
+        <div class="chapo">
+            <h2 class="article__title">THE FUNCTIONING OF A VINYL AND A TURNTABLE</h2>
+            <p class="arcticle__legende b2_3">Vinyl records, despite the digital age, are experiencing a resurgence of interest. Understanding their functioning and the production of their distinctive sound helps appreciate why they remain so popular.</p>
+            <div class="article__pic">
+                <img class="img__article" src="../assets/img/vinyle_img.svg" alt="45 RPM record being played">
+                <p class="img__text b4">45 RPM record being played</p>
+            </div>
+        </div>
+        <div class="article__content">
+            <h2 class="article__title">THE SECRET OF THE DISTINCTIVE SOUND OF VINYL RECORDS</h2>
+            <div class="rubrique">
+                <p class="rubrique__subtitle b1">The vinyl record: a sound sculpture</p>
+                <p class="text__para b2_3">The vinyl record is made of <span class="bold orange__text">polyvinyl chloride (PVC)</span>, hence its name. It is engraved with <span class="bold orange__text">microscopic grooves</span> that contain analog sound information. These grooves are not <span class="bold">continuous</span> and <span class="bold">smooth</span> lines; they are shaped according to the <span class="bold">sound frequencies</span> and <span class="bold">dynamics of the music</span>. The shape of these grooves is a direct translation of the recorded music.</p>
+                <p class="text__para b2_3">There are <span class="bold">several formats of vinyl records</span>, the most common being the <span class="bold orange__text">33 RPM (33⅓ RPM)</span>, which can hold between 20 and 30 minutes of music per side, and the <span class="bold orange__text">45 RPM</span>, which is generally used for singles. One of the peculiarities of vinyl is that each format has a <span class="bold">limited recording capacity</span>, often forcing artists to carefully choose what they want to include, reinforcing the idea of an album as a coherent work of art.</p>
+                <div class="article__pic">
+                    <img src="../assets/img/TDSM.svg" alt="The Dark Side Of The Moon" class="img__article pic__article">
+                    <p class="img__text b4"><a class="img__link" href="https://www.youtube.com/watch?v=k9ynZnEBtvw">Album “The Dark Side Of The Moon” by Pink Floyd</a></p>
+                </div>
+            </div>
+            <div class="rubrique">
+                <p class="rubrique__subtitle b1">The turntable: the heart of vinyl playback</p>
+                <div class="rubrique__part">
+                    <p class="text__para b2_3"><span class="bold orange__text">The turntable</span> is where the vinyl rests. When it spins at a constant speed, it allows the music engraved in the grooves to be read correctly. <span class="bold">The rotation speed</span>, expressed in <span class="bold">revolutions per minute (RPM)</span>, is essential: playing at the wrong speed will result in sound that is <span class="bold">too fast</span> or <span class="bold">too slow.</span></p>
+                    <div class="platine article__pic image__article">
+                        <img src="../assets/img/platine.svg" alt="Turntable from the 2000s" class="bigger img__article">
+                        <p class="img__text b4"><a class="img__link" href="https://www.fnac.com/Platine-Vinyle/Elements-Separes-Hifi/nsh450732/w-4">Turntable from the 2000s</a></p>
+                    </div>
+                </div>
+                <div class="rubrique__part">
+                    <p class="text__para b2_3"><span class="bold orange__text">The tonearm</span> supports the cartridge and stylus, which interact directly with the record. The precision of its movements on <span class="bold">the grooves directly influences the quality of the sound produced.</span></p>
+                    <div class="article__pic image__article">
+                        <img src="../assets/img/bras_de_lecture.svg" alt="Tonearm from the 2000s" class="img__article">
+                        <p class="img__text b4"><a class="img__link" href="https://www.lamaisondelahifi.fr/collections/bras-de-lecture-platine-vinyle?srsltid=AfmBOorESf1v_wEwPBHyMk-lJSreJwnL-ZcDCG1wCXgO9MiTZApuF-MU">Tonearm from the 2000s</a></p>
+                    </div>
+                </div>
+                <div class="rubrique__part">
+                    <p class="text__para b2_3"><span class="bold orange__text">The phono cartridge</span> plays a crucial role in converting the stylus vibrations into an electrical signal. This signal then passes through <span class="bold orange__text">a preamplifier</span>, then <span class="bold orange__text">an amplifier</span>, before being transmitted to the <span class="bold">speakers</span>. There are two main types of cartridges: <span class="bold orange__text">moving magnet (MM)</span> or <span class="bold orange__text">moving coil (MC)</span>, each offering advantages in terms of sound quality.</p>
+                    <div class="cellule__phono article__pic image__article">
+                        <img src="../assets/img/cellule_phono.svg" alt="Phono cartridge from the 2000s" class="bigger img__article">
+                        <p class="img__text b4"><a class="img__link" href="https://www.fnac.com/Platine-Vinyle/Elements-Separes-Hifi/nsh450732/w-4">Phono cartridge from the 2000s</a></p>
+                    </div>
+                </div>
+                <div class="rubrique__part">
+                    <p class="text__para b2_3"><span class="bold orange__text">The stylus</span>, is <span class="bold">the tip that comes into contact with the groove of the vinyl</span>. Its fineness and condition greatly influence the sound quality. A worn stylus can not only <span class="bold">degrade the sound</span>, but also <span class="bold">damage the record</span>.</p>
+                    <div class="cellule__phono article__pic image__article">
+                        <img src="../assets/img/diamand_platine.svg" alt="A stylus from the 2000s" class="bigger img__article">
+                        <p class="img__text b4"><a class="img__link" href="https://www.fnac.com/Platine-Vinyle/Elements-Separes-Hifi/nsh450732/w-4">A stylus from the 2000s</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="rubrique">
+                <p class="rubrique__subtitle b1">Why does vinyl have a unique sound?</p>
+                <div class="rubrique__part">
+                    <p class="text__para b2_3">
+                        One of the reasons vinyl enthusiasts prefer this medium is the <span class="bold">richness of analog sound</span>. Unlike a <span class="bold">compressed digital file</span>, which loses some information, <span class="bold">vinyl reproduces music more completely</span>, with all the frequencies captured during recording. The sound produced is <span class="bold">warmer</span>, <span class="bold">deeper</span>, and more <span class="bold">authentic</span>.
+                    </p>
+                </div>
+                <div class="rubrique__part">
+                    <p class="text__para b2_3">
+                        Moreover, listening to vinyl is an <span class="bold">active process</span>: you have to <span class="bold">physically handle the record</span>, place the stylus on the groove, and sometimes manually adjust the tonearm at the end of a side. This interaction creates a tangible connection with the music, <span class="bold">turning listening into a ritual</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="frise">
+        <h2 class="frise__title">Timeline</h2>
+        <div class="chronologie">
+            <div class="chronologie__first">
+                <div class="chronologie__date">
+                    <h2 class="date">1887</h2>
+                    <div class="chronologie__img">
+                        <img class="date__img" src="../assets/img/gramophone.svg" alt="Gramophone">
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="content__text b2_3">The gramophone, invented in 1887 by Emile Berliner, is the first device to play flat discs, revolutionizing music listening.</p>
+                </div>
+            </div>
+            <div class="chronologie__item">
+                <div class="chronologie__date">
+                    <h2 class="date">1901</h2>
+                    <div class="chronologie__img">
+                        <img class="date__img" src="../assets/img/disque78.svg" alt="78 RPM record">
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="content__text b2_3">The 78 RPM record, introduced in the early 20th century, is a shellac format used for music, spinning at 78 revolutions per minute.</p>
+                </div>
+            </div>
+            <div class="chronologie__item">
+                <div class="chronologie__date">
+                    <h2 class="date">1920</h2>
+                    <div class="chronologie__img">
+                        <img class="date__img" src="../assets/img/platine2.svg" alt="Vinyl turntable">
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="content__text b2_3">Vinyl turntables, which appeared in the 1920s, are devices that play vinyl records using a rotating platter and a needle.</p>
+                </div>
+            </div>
+            <div class="chronologie__item">
+                <div class="chronologie__date">
+                    <h2 class="date">1948</h2>
+                    <div class="chronologie__img">
+                        <img class="date__img" src="../assets/img/disque33.svg" alt="33 RPM record">
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="content__text b2_3">Columbia Records launches the 33⅓ RPM Long Play (LP) vinyl, more flexible and durable than shellac, with a capacity of 22 minutes per side, marking the beginning of the modern vinyl record era.</p>
+                </div>
+            </div>
+            <div class="chronologie__item">
+                <div class="chronologie__date">
+                    <h2 class="date">1949</h2>
+                    <div class="chronologie__img">
+                        <img class="date__img" src="../assets/img/disque45.svg" alt="45 RPM record">
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="content__text b2_3">The 45 RPM record, launched in 1949 by RCA Victor, is a compact format for playing singles at 45 revolutions per minute.</p>
+                </div>
+            </div>
+            <div class="chronologie__item">
+                <div class="chronologie__date">
+                    <h2 class="date">2051</h2>
+                    <div class="chronologie__img">
+                        <img class="date__img" src="../assets/img/future.svg" alt="Future vinyl turntable">
+                    </div>
+                </div>
+                <div class="content">
+                    <p class="content__text b2_3">In 2051, the holographic vinyl player projects 3D clips, offering an immersive and futuristic musical experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a class="footer__top" href="index.html">
+            <h1 class="footer__title">VinyStory</h1>
+            <img class="logo" src="../assets/icons/logo.svg" alt="">
+        </a>
+        <div class="footer__line"></div>
+        <div class="footer__reseaux">
+            <img class="instagram" src="../assets/icons/instagram.svg" alt="instagram">
+            <img class="x" src="../assets/icons/x.svg" alt="x">
+            <img class="facebook" src="../assets/icons/facebook.svg" alt="facebook">
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__menu">
+            <p class="footer__item b1"><a class="footer__link" href="index.html">Home</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="fonctionnement.html">Vinyls</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="HighFidelity.html">High fidelity</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="chazelle.html">Damien Chazelle</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="rock_vinyle.html">Rock Vinyls</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="tdsotm.html">The Dark Side of the Moon</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="autres_projet.html">Other projects</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="a_propos.html">About</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="contact.html">Contact</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="glossaire.html">Glossary</a></p>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__text">
+            <p class="text__item b1">This website is made as part of an educational project of the BUT MMI of Montbéliard</p>
+            <p class="text__item b1">To learn more <a class="item__link" href="https://blogdummi.fr/">click here</a></p>
+            <p class="text__item b1">Mathis Guellati</p>
+        </div>
+    </div>
+</body>
