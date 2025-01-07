@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VinyStory</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/logo_page.svg"/>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+    <script type="module" src="/src/js/accordeon.js"></script>
+</head>
+<body>
+    <header class="header accueuil">
+        <div class="header__left">
+            <img class="header__drapeau" src="../assets/icons/drapeau_france.svg" alt="French language">
+            <h1 class="header__title"><a class="title__link" href="index.html">VinyStory</a></h1>
+            <img class="header__elispe" src="../assets/formes/elipse_creuse_bleu.svg" alt="">
+            <h1 class="header__tranparent"><a class="subtitle__link" href="index.html">Vin</a></h1>
+        </div>
+        <div class="header__right">
+            <a href="../fr/glossaire.html"><img class="header__drapeau" src="../assets/icons/drapeau_english.svg" alt="English language"></a>
+            <button class="menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar menu__autre" aria-hidden="true"></span>
+            </button>
+            <nav class="menu" id="mainNav" aria-hidden="true">
+                <ul class="menu__list">
+                    <h1><a class="link__title" href="index.html">VinyStory</a></h1>
+                    <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+                    <div class="accordeon">
+                        <details>
+                            <summary class="menu__depliable">
+                                <li class="menu__item summary__item">Learn more</li>
+                            </summary>
+                        
+                            <div class="accordeon__element">
+                                <li class="menu__item"><a class="menu__link" href="fonctionnement.html">Their operation</a></li>
+                                <li class="menu__item"><a class="menu__link" href="HighFidelity.html">High Fidelity</a></li>
+                                <li class="menu__item"><a class="menu__link" href="chazelle.html">Damien Chazelle</a></li>
+                                <li class="menu__item"><a class="menu__link" href="rock_vinyle.html">Rock vinyls</a></li>
+                                <li class="menu__item"><a class="menu__link" href="tdsotm.html">The Dark Side Of The Moon</a></li>
+                            </div>
+                        </details>
+                    <li class="menu__item"><a class="menu__link" href="autres_projet.html">other projects</a></li>
+                    <li class="menu__item"><a class="menu__link" href="contact.html">contact</a></li>
+                    <li class="menu__item"><a class="menu__link" href="a_propos.html">about</a></li>
+                    <li class="menu__item"><a class="menu__link" href="glossaire.html">glossary</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="top">
+        <img class="top__img" src="../assets/icons/fleche_top.svg" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" alt="">
+    </div>
+    <div class="article">
+        <h2 class="article__title article__projet">glossary</h2>
+        <div class="accordeon accordeon__glossaire">
+            <details>
+                <summary><p class="b1 glossaire__subtitle">Operation of a vinyl and a turntable</p></summary>
+                <div class="glossaire__content">
+                    <p class="glossaire__text b2_3"><span class="bold orange__text">Polyvinyl chloride (PVC)</span>: durable and versatile plastic, used in products like pipes, cables, and vinyls, known for its resistance and longevity.</p>
+                    <p class="glossaire__text b2_3"><span class="bold orange__text">Microscopic grooves</span>: grooves on vinyl records that contain audio information. By following them, the turntable's diamond picks up the vibrations, which are then transformed into sound.</p>
+                    <p class="glossaire__text b2_3"><span class="bold orange__text">33 RPM record</span>: slow-rotating vinyls, allowing more music to be stored per side thanks to microscopic grooves that contain the audio information read by the turntable.</p>
+                    <p class="glossaire__text b2_3"><span class="bold orange__text">45 RPM record</span>: smaller vinyls, generally used for singles, which rotate at a speed of 45 revolutions per minute, offering better sound quality for shorter durations.</p>
+                    <p class="glossaire__text b2_3"><span class="bold orange__text">Preamplifier</span>: electronic device that amplifies weak audio signals, such as those from a vinyl turntable cartridge, to make them strong enough before sending them to a main amplifier. It is essential for obtaining clear and audible sound without distortion.</p>
+                    <p class="glossaire__text b2_3"><span class="bold orange__text">Amplifier</span>: electronic device that increases the power of an audio signal to make it strong enough to be played through speakers. It takes a weak signal from a source, such as a preamplifier, and transforms it into a sound powerful enough for listening.</p>
+                    <p class="glossaire__text b2_3"><span class="bold orange__text">Moving magnet (MM) cartridge</span>: type of cartridge used in vinyl turntables to convert the vibrations of the record grooves into an electrical signal. In this system, a small magnet is attached to the end of the cantilever (the rod that supports the diamond), and it moves between two coils to generate the audio signal. Moving magnet cartridges are popular for their robustness, simplicity, and generally lower cost compared to moving coil cartridges.</p>
+                </div>
+            </details>
+            <details>
+                <summary><p class="b1 glossaire__subtitle">High Fidelity, a love declaration to vinyl</p></summary>
+                <div class="glossaire__content">
+                    <p class="glossaire__text b2_3"><span class="bold orange__text">John Cusack</span>: American actor, screenwriter, and producer, born in 1966. He is known for his roles in films like High Fidelity, Say Anything, and Being John Malkovich. With a diverse career, Cusack is appreciated for his performances in romantic comedies, dramas, and thrillers.</p>
+                </div>
+            </details>
+            <details>
+                <summary><p class="b1 glossaire__subtitle">Damien Chazelle and his connection to vinyl culture</p></summary>
+                <div class="glossaire__content">
+                    <p class="glossaire__text b2_3"><span class="bold orange__text">Audiophiles</span>: music enthusiasts who seek the best possible sound quality. They invest in high-end audio equipment, such as amplifiers, speakers, and vinyl turntables, to reproduce sound as faithfully and authentically as possible, often preferring analog formats like vinyl.</p>
+                    <p class="glossaire__text b2_3"><span class="bold orange__text">Analog sound</span>: type of audio signal where sound waves are recorded and reproduced in a continuous form, mimicking the natural variations of sound. Unlike digital sound, which converts audio into binary data, analog sound, like that produced by vinyl records or tapes, is considered by some audiophiles to offer a warmer and more authentic quality.</p>
+                </div>
+            </details>
+        </div>
+    </div>
+    <div class="footer">
+        <a class="footer__top" href="index.html">
+            <h1 class="footer__title">VinyStory</h1>
+            <img class="logo" src="../assets/icons/logo.svg" alt="">
+        </a>
+        <div class="footer__line"></div>
+        <div class="footer__reseaux">
+            <img class="instagram" src="../assets/icons/instagram.svg" alt="instagram">
+            <img class="x" src="../assets/icons/x.svg" alt="x">
+            <img class="facebook" src="../assets/icons/facebook.svg" alt="facebook">
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__menu">
+            <p class="footer__item b1"><a class="footer__link" href="index.html">Home</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="fonctionnement.html">Vinyls</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="HighFidelity.html">High fidelity</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="chazelle.html">Damien Chazelle</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="rock_vinyle.html">Rock Vinyls</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="tdsotm.html">The Dark Side of the Moon</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="autres_projet.html">Other projects</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="a_propos.html">About</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="contact.html">Contact</a></p>
+            <p class="footer__item b1"><a class="footer__link" href="glossaire.html">Glossary</a></p>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__text">
+            <p class="text__item b1">This website is made as part of an educational project of the BUT MMI of Montbéliard</p>
+            <p class="text__item b1">To learn more <a class="item__link" href="https://blogdummi.fr/">click here</a></p>
+            <p class="text__item b1">Mathis Guellati</p>
+        </div>
+    </div>
+</body>
